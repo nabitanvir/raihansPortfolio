@@ -1,0 +1,16 @@
+* {
+    outline: 2px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1d1d1;
+}
+
+div {
+    font-family: "Courier";
+}
+
+.header {
+    text-align: center;
+}
