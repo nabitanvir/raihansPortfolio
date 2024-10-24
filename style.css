@@ -8,9 +8,14 @@
     text-decoration: none;
 }
 
+.compress {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 20px;
 }
 

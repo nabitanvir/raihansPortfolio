@@ -1,14 +1,2 @@
 # raihansPortfolio
-My website that displays my portfolio!
-
-Languages and Frameworks:
-1. HTML
-2. CSS
-3. JavaScript
-4. React.js
-
-To Do:
-- [ ] Finalize design and aesthetic choices
-- [ ] Add About Me Section
-- [ ] Add Project Section
-- [ ] Add Skills Section
+This is the source code for my public portfolio website, feel free to clone this code for your own use.
