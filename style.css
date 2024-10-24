@@ -1,16 +1,24 @@
 * {
-    outline: 2px solid red;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0px solid red;
     box-sizing: border-box;
+    font-size: 24px;
 }
 
-body {
-    background-color: #d1d1d1;
+#intro {
+    align-items: center;
 }
 
-div {
-    font-family: "Courier";
+.headshot {
+    float: left;
+    margin-right: 20px;
 }
 
-.header {
-    text-align: center;
+.info {
+    margin: 0px;
+    padding: 0px;
+}
+
+#aboutme {
+    margin-top: 150px;
 }
