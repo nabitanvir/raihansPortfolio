@@ -10,10 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+    <link rel="icon" href="images/placeholder.png" type="image/png">
 </head>
 
 <body>
-    <div class="dimensions">
+    <div class="page-container">
         <!-- Intro card -->
         <div class="intro">
             <div class="align">
@@ -23,53 +24,57 @@
                 <div class="reference">
                     <a href="mailto:raihanntanvir@gmail.com">Email</a> /
                     <a href="tel:+16507699012">Phone</a> /
-                    <a href="#">CV</a> /
+                    <a href="data/Raihan_Tanvir_Resume.pdf">CV</a> /
                     <a href="https://github.com/nabitanvir">Github</a> /
                     <a href="https://www.linkedin.com/in/raihanntanvir/">LinkedIn</a>
                 </div>
             </div>
-            <img class="picture" src="image/placeholder.png" alt="Raihan Tanvir">
+            <img class="picture" src="images/placeholder.png" alt="Raihan Tanvir">
         </div>
 
         <!-- My projects -->
-        <div style="width:100%;vertical-align:middle">
-            <p style="font-size: 24px;">Projects</p>
-            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0; margin:0px;">
-                <img src="image/placeholder.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
-                <div style="flex: 1;">
-                    <a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/raspberryHi">raspBerryHi!</a>
-                    <p>raspBerryHi!</p>
-                    <p>Marvin is a open-source smarthome assistant that can be easily modified and personalized to different users and use cases.</p>
+        <div class="projects">
+            <p class="header">Projects</p>
+            <div class="project-container">
+                <img class="project-image" src="images/placeholder.png" alt="Marvin!">
+                <div class="align">
+                    <div class="details">
+                        <a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/raspberryHi">raspBerryHi!</a>
+                        <p>Independent Project, 2024</p>
+                    </div>
+                    <p>Berry is an open-source smarthome assistant. He was built using machine learning techniques to enable facial identification and trigger words.</p>
                 </div>
             </div>
 
-            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
-                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
-                <div style="flex: 1;">
-                    <p><a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/open-lambda">OpenLambda</a> (Supervised by Professor Tyler Caraza-Harter)</p>
+            <div class="project-container">
+                <img class="project-image" src="images/openLambdaIcon.png" alt="OpenLambda">
+                <div class="align">
+                    <div class="details">
+                        <a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/open-lambda">OpenLambda</a>
+                        <p>Supervised by Professor Tyler Caraza-Harter, 2024</p>
+                    </div>
                     <p>OpenLambda is a serverless compute platform that uses SOCK containers as an alternative to Docker containers in order to reduce container provisioning overhead.</p>
                 </div>
             </div>
 
-            <p style="font-size: 24px;">Course Projects</p>
-            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
-                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
-                <div style="flex: 1;">
-                    <p>wsh</p>
-                    <p>Supervised by Professor Tyler Caraza-Harter</p>
-                    <p>OpenLambda is a serverless compute platform that uses SOCK containers as an alternative to Docker containers in order to reduce container provisioning overhead.</p>
+            <p class="header">Course Projects</p>
+            <div class="project-container">
+                <img class="project-image" src="images/placeholder.png" alt="Raihan Tanvir">
+                <div class="align">
+                    <div class="details">
+                        <p>name placeholder</p>
+                        <p>time placeholder</p>
+                    </div>
+                    <p>project description placeholder</p>
                 </div>
             </div>
+        </div>
 
-            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
-                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
-                <div style="flex: 1;">
-                    <p>OpenLambda</p>
-                    <p>Supervised by Professor Tyler Caraza-Harter</p>
-                    <p>yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap ya</p>
-                </div>
-            </div>
-        </div>     
+        <!-- Footer -->
+        <div class="footer-container">
+            <p>Feel free to steal this website's <a class="footer-link" href="https://github.com/nabitanvir/raihansPortfolio">source code.</a></p>
+            <p>Last Updated: November 2024</p>
+        </div>
     </div>
 </body>
 

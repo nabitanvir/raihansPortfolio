@@ -8,7 +8,11 @@ p {
     font-size: 16px;
 }
 
-.dimensions {
+.align {
+    flex: 1;
+}
+
+.page-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -22,12 +26,8 @@ p {
     gap: 20px;
 }
 
-.align {
-    flex: 1;
-}
-
 .name {
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -49,3 +49,44 @@ p {
 }
 
 /* Projects section */
+.projects {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header {
+    font-size: 24px;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+.project-image {
+    max-width: 256px;
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+
+.details p {
+    margin: 0;
+}
+
+/* Footer */
+.footer-container p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #007bff;
+}
