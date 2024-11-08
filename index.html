@@ -10,54 +10,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
-    <style>
-        * {
-            font-family: Lato;
-            border: 1px solid red;
-            
-        }
-
-        p {
-            font-size: 16px;
-        }
-    </style>
 </head>
 
 <body>
-    <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
-        <!-- About me with short description of my background and career goals -->
-        <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px;">
-            <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width: 256px; width: 100%; height: auto; object-fit: cover;">
-            <div style="flex: 1; text-align: center;">
-                <h1 style="margin: 0px auto">Raihan Tanvir</h1>
-                <p>I'm a senior majoring in computer science at the University of Wisconsin-Madison. I like to code.</p>
-                <p>My interests include machine learning and databases.</p>
-                <p>
-                    <a style="margin: 0 5px; text-decoration: none; color: #007bff;" href="mailto:raihanntanvir@gmail.com">Email</a> /
-                    <a style="margin: 0 5px; text-decoration: none; color: #007bff;" href="tel:+16507699012">Phone</a> /
-                    <a style="margin: 0 5px; text-decoration: none; color: #007bff;" href="#">CV</a> /
-                    <a style="margin: 0 5px; text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir">Github</a> /
-                    <a style="margin: 0 5px; text-decoration: none; color: #007bff;" href="https://www.linkedin.com/in/raihanntanvir/">LinkedIn</a>
-                </p>
+    <div class="dimensions">
+        <!-- Intro card -->
+        <div class="intro">
+            <div class="align">
+                <h1 class="name">Raihan Tanvir</h1>
+                <p>I'm a senior majoring in computer science at the University of Wisconsin-Madison.</p>
+                <p>My interests include systems, big data, and machine learning.</p>
+                <div class="reference">
+                    <a href="mailto:raihanntanvir@gmail.com">Email</a> /
+                    <a href="tel:+16507699012">Phone</a> /
+                    <a href="#">CV</a> /
+                    <a href="https://github.com/nabitanvir">Github</a> /
+                    <a href="https://www.linkedin.com/in/raihanntanvir/">LinkedIn</a>
+                </div>
             </div>
+            <img class="picture" src="image/placeholder.png" alt="Raihan Tanvir">
         </div>
-        <!-- All the cool skills i have and stuff -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:0px;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                yapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyapyap <span class="highlight">YAP</span>.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <div>
-            <p>Languages: Python, Java, C, C++, Go, TypeScript, JavaScript, HTML/CSS, R, SQL, PHP</p>
-            <p>Frameworks: AWS, Git, React, TailwindCSS, Node.js, Pandas, NumPy, PyTorch, Keras,Matplotlib</p>
-            <p>Databases: MySQL, PostgreSQL, NoSQL</p>
-        </div>
-        <!-- my work experience wowzers man woweee -->
+
+        <!-- My projects -->
+        <div style="width:100%;vertical-align:middle">
+            <p style="font-size: 24px;">Projects</p>
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0; margin:0px;">
+                <img src="image/placeholder.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
+                <div style="flex: 1;">
+                    <a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/raspberryHi">raspBerryHi!</a>
+                    <p>raspBerryHi!</p>
+                    <p>Marvin is a open-source smarthome assistant that can be easily modified and personalized to different users and use cases.</p>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
+                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
+                <div style="flex: 1;">
+                    <p><a style="text-decoration: none; color: #007bff;" href="https://github.com/nabitanvir/open-lambda">OpenLambda</a> (Supervised by Professor Tyler Caraza-Harter)</p>
+                    <p>OpenLambda is a serverless compute platform that uses SOCK containers as an alternative to Docker containers in order to reduce container provisioning overhead.</p>
+                </div>
+            </div>
+
+            <p style="font-size: 24px;">Course Projects</p>
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
+                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
+                <div style="flex: 1;">
+                    <p>wsh</p>
+                    <p>Supervised by Professor Tyler Caraza-Harter</p>
+                    <p>OpenLambda is a serverless compute platform that uses SOCK containers as an alternative to Docker containers in order to reduce container provisioning overhead.</p>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap:20px; padding: 10px 0">
+                <img src="IMG_3136.png" alt="Raihan Tanvir" style="max-width:256px; width:20%; height:auto; object-fit:cover;">
+                <div style="flex: 1;">
+                    <p>OpenLambda</p>
+                    <p>Supervised by Professor Tyler Caraza-Harter</p>
+                    <p>yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap yap ya</p>
+                </div>
+            </div>
+        </div>     
     </div>
 </body>
 

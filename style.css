@@ -1,0 +1,51 @@
+/* General styling */
+* {
+    font-family: Lato;
+    border: 1px solid red;
+}
+
+p {
+    font-size: 16px;
+}
+
+.dimensions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Intro card styling */
+.intro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.align {
+    flex: 1;
+}
+
+.name {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.reference {
+    text-align: center;
+}
+
+.reference a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.picture {
+    max-width: 256px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Projects section */
