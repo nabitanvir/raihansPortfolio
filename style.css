@@ -5,7 +5,7 @@
 }
 
 p {
-    font-size: 16px;
+    font-size: 14.5px;
 }
 
 .align {
@@ -16,6 +16,17 @@ p {
     max-width: 750px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.bold-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
 }
 
 /* Intro card styling */
